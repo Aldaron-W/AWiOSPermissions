@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238C20F21D23A3EA007A259B /* AWCameraPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C20F11D23A3EA007A259B /* AWCameraPermission.m */; };
 		23F4FA2F1D222ACA0041D416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA2E1D222ACA0041D416 /* main.m */; };
 		23F4FA321D222ACA0041D416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA311D222ACA0041D416 /* AppDelegate.m */; };
 		23F4FA351D222ACA0041D416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA341D222ACA0041D416 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		23F4FA3D1D222ACA0041D416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F4FA3B1D222ACA0041D416 /* LaunchScreen.storyboard */; };
 		23F4FA481D222ACA0041D416 /* AWiOSPermissionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA471D222ACA0041D416 /* AWiOSPermissionsTests.m */; };
 		23F4FA531D222ACA0041D416 /* AWiOSPermissionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA521D222ACA0041D416 /* AWiOSPermissionsUITests.m */; };
+		23F4FA621D222B680041D416 /* AWiOSPermissionsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA611D222B680041D416 /* AWiOSPermissionsCore.m */; };
+		23F4FA631D222B680041D416 /* AWiOSPermissionsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA611D222B680041D416 /* AWiOSPermissionsCore.m */; };
+		23F4FA641D222B680041D416 /* AWiOSPermissionsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA611D222B680041D416 /* AWiOSPermissionsCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		238C20EF1D23A3A7007A259B /* AWiOSPermissions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWiOSPermissions.h; sourceTree = "<group>"; };
+		238C20F01D23A3EA007A259B /* AWCameraPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWCameraPermission.h; path = AWiOSPermissions/AWCameraPermission.h; sourceTree = "<group>"; };
+		238C20F11D23A3EA007A259B /* AWCameraPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWCameraPermission.m; path = AWiOSPermissions/AWCameraPermission.m; sourceTree = "<group>"; };
 		23F4FA2A1D222ACA0041D416 /* AWiOSPermissions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWiOSPermissions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F4FA2E1D222ACA0041D416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23F4FA301D222ACA0041D416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		23F4FA4E1D222ACA0041D416 /* AWiOSPermissionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWiOSPermissionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F4FA521D222ACA0041D416 /* AWiOSPermissionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWiOSPermissionsUITests.m; sourceTree = "<group>"; };
 		23F4FA541D222ACA0041D416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F4FA601D222B680041D416 /* AWiOSPermissionsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWiOSPermissionsCore.h; path = AWiOSPermissions/AWiOSPermissionsCore.h; sourceTree = "<group>"; };
+		23F4FA611D222B680041D416 /* AWiOSPermissionsCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWiOSPermissionsCore.m; path = AWiOSPermissions/AWiOSPermissionsCore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +112,14 @@
 			children = (
 				23F4FA301D222ACA0041D416 /* AppDelegate.h */,
 				23F4FA311D222ACA0041D416 /* AppDelegate.m */,
+				23F4FA391D222ACA0041D416 /* Assets.xcassets */,
+				23F4FA651D222B700041D416 /* AWiOSPermissions */,
+				23F4FA3E1D222ACA0041D416 /* Info.plist */,
+				23F4FA3B1D222ACA0041D416 /* LaunchScreen.storyboard */,
+				23F4FA361D222ACA0041D416 /* Main.storyboard */,
+				23F4FA2D1D222ACA0041D416 /* Supporting Files */,
 				23F4FA331D222ACA0041D416 /* ViewController.h */,
 				23F4FA341D222ACA0041D416 /* ViewController.m */,
-				23F4FA361D222ACA0041D416 /* Main.storyboard */,
-				23F4FA391D222ACA0041D416 /* Assets.xcassets */,
-				23F4FA3B1D222ACA0041D416 /* LaunchScreen.storyboard */,
-				23F4FA3E1D222ACA0041D416 /* Info.plist */,
-				23F4FA2D1D222ACA0041D416 /* Supporting Files */,
 			);
 			path = AWiOSPermissions;
 			sourceTree = "<group>";
@@ -138,6 +148,18 @@
 				23F4FA541D222ACA0041D416 /* Info.plist */,
 			);
 			path = AWiOSPermissionsUITests;
+			sourceTree = "<group>";
+		};
+		23F4FA651D222B700041D416 /* AWiOSPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				23F4FA601D222B680041D416 /* AWiOSPermissionsCore.h */,
+				23F4FA611D222B680041D416 /* AWiOSPermissionsCore.m */,
+				238C20EF1D23A3A7007A259B /* AWiOSPermissions.h */,
+				238C20F01D23A3EA007A259B /* AWCameraPermission.h */,
+				238C20F11D23A3EA007A259B /* AWCameraPermission.m */,
+			);
+			name = AWiOSPermissions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +229,7 @@
 				TargetAttributes = {
 					23F4FA291D222ACA0041D416 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5E5T639YE9;
 					};
 					23F4FA421D222ACA0041D416 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -271,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F4FA351D222ACA0041D416 /* ViewController.m in Sources */,
+				23F4FA621D222B680041D416 /* AWiOSPermissionsCore.m in Sources */,
+				238C20F21D23A3EA007A259B /* AWCameraPermission.m in Sources */,
 				23F4FA321D222ACA0041D416 /* AppDelegate.m in Sources */,
 				23F4FA2F1D222ACA0041D416 /* main.m in Sources */,
 			);
@@ -281,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F4FA481D222ACA0041D416 /* AWiOSPermissionsTests.m in Sources */,
+				23F4FA631D222B680041D416 /* AWiOSPermissionsCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F4FA531D222ACA0041D416 /* AWiOSPermissionsUITests.m in Sources */,
+				23F4FA641D222B680041D416 /* AWiOSPermissionsCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AWiOSPermissions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.aldaron.AWiOSPermissions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AWiOSPermissions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.aldaron.AWiOSPermissions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +531,7 @@
 				23F4FA591D222ACA0041D416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23F4FA5A1D222ACA0041D416 /* Build configuration list for PBXNativeTarget "AWiOSPermissionsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +540,7 @@
 				23F4FA5C1D222ACA0041D416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23F4FA5D1D222ACA0041D416 /* Build configuration list for PBXNativeTarget "AWiOSPermissionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +549,7 @@
 				23F4FA5F1D222ACA0041D416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
