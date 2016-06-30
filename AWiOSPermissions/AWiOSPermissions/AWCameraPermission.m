@@ -25,7 +25,7 @@
             case AVAuthorizationStatusDenied:
             case AVAuthorizationStatusRestricted: {
                 if (completion) {
-//                    completion(false, [self previouslyDeniedError]);
+                    completion(false, nil, [self previouslyDeniedError]);
                 }
             } break;
             case AVAuthorizationStatusNotDetermined: {
