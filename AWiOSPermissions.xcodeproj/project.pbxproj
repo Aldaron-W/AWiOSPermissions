@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		238C20F21D23A3EA007A259B /* AWCameraPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C20F11D23A3EA007A259B /* AWCameraPermission.m */; };
+		2395663C1D252F9200FDAA1E /* AWiOSPermissionsCore+Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 2395663B1D252F9200FDAA1E /* AWiOSPermissionsCore+Error.m */; };
 		23F4FA2F1D222ACA0041D416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA2E1D222ACA0041D416 /* main.m */; };
 		23F4FA321D222ACA0041D416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA311D222ACA0041D416 /* AppDelegate.m */; };
 		23F4FA351D222ACA0041D416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F4FA341D222ACA0041D416 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 		238C20EF1D23A3A7007A259B /* AWiOSPermissions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWiOSPermissions.h; sourceTree = "<group>"; };
 		238C20F01D23A3EA007A259B /* AWCameraPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWCameraPermission.h; path = AWiOSPermissions/AWCameraPermission.h; sourceTree = "<group>"; };
 		238C20F11D23A3EA007A259B /* AWCameraPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWCameraPermission.m; path = AWiOSPermissions/AWCameraPermission.m; sourceTree = "<group>"; };
+		2395663A1D252F9200FDAA1E /* AWiOSPermissionsCore+Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AWiOSPermissionsCore+Error.h"; path = "AWiOSPermissions/AWiOSPermissionsCore+Error.h"; sourceTree = "<group>"; };
+		2395663B1D252F9200FDAA1E /* AWiOSPermissionsCore+Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AWiOSPermissionsCore+Error.m"; path = "AWiOSPermissions/AWiOSPermissionsCore+Error.m"; sourceTree = "<group>"; };
 		23F4FA2A1D222ACA0041D416 /* AWiOSPermissions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWiOSPermissions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F4FA2E1D222ACA0041D416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23F4FA301D222ACA0041D416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				238C20EF1D23A3A7007A259B /* AWiOSPermissions.h */,
 				238C20F01D23A3EA007A259B /* AWCameraPermission.h */,
 				238C20F11D23A3EA007A259B /* AWCameraPermission.m */,
+				2395663A1D252F9200FDAA1E /* AWiOSPermissionsCore+Error.h */,
+				2395663B1D252F9200FDAA1E /* AWiOSPermissionsCore+Error.m */,
 			);
 			name = AWiOSPermissions;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2395663C1D252F9200FDAA1E /* AWiOSPermissionsCore+Error.m in Sources */,
 				23F4FA351D222ACA0041D416 /* ViewController.m in Sources */,
 				23F4FA621D222B680041D416 /* AWiOSPermissionsCore.m in Sources */,
 				238C20F21D23A3EA007A259B /* AWCameraPermission.m in Sources */,

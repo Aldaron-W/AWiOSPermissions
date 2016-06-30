@@ -11,7 +11,8 @@
 typedef NS_ENUM(NSInteger, AWAuthorizationStatus) {
     AWPermissionError = -1,             /**< 子类未实现authorizationStatus函数 */
     AWPermissionNotDetermined = 0,      /**< 用户未选择 */
-    AWPermissionDenied,                 /**< 用户拒绝 */
+    AWPermissionUserDenied,             /**< 用户拒绝 */
+    AWPermissionSystemDenied,           /**< 系统拒绝 */
     AWPermissionAuthorized              /**< 用户同意 */
 };
 
@@ -34,6 +35,7 @@ typedef void (^AuthorizationHandler)(BOOL granted, NSString *__nullable content,
 
 @interface AWiOSPermissionsCore : NSObject
 
+@property (nonatomic, strong) __nullable AuthorizationHandler completion;
 @property (nonatomic, readonly) AWAuthorizationStatus authorizationStatus;
 @property (nonatomic, readonly) AWPermissionType permissionType;
 
